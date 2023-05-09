@@ -1,38 +1,73 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  background-color: yellow;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.use-me {
+  margin: 1.2rem 0;
+  font-size: larger;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+textarea {
+  display: block;
+  text-align: left;
+  min-height: 6rem;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+.btn {
+  font-size: 1rem;
+  margin: 4vh 0;
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  outline: inherit;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+#txt-input {
+  background: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#output {
+  border: 1px solid black;
+  min-height: 15vh;
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.say {
+  display: block;
+  margin: 10px;
+  min-height: auto;
+}
+
+.hero-area {
+  height: 85vh;
+  background: url("./banana.png") repeat;
+  background-size: 70px 70px; /* Set the dimensions of the pattern */
+}
+.banana {
+  font-size: larger;
+}
+
+footer {
+  background-color: yellow;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  padding: 1vh 0;
 }
