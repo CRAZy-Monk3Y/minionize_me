@@ -14,12 +14,14 @@ function App() {
   };
   return (
     <>
-      <h1>Get ready to go bananas with our minion-themed site!</h1>
+      <h1>
+        <i>Get ready to go bananas with our minion-themed site!</i>
+      </h1>
       <div className="hero-area">
         <div className="use-me">Use me</div>
         <textarea
           id="txt-input"
-          placeholder="type what you want to say!"
+          placeholder="type what you want to say in English!"
           value={textInput}
           onChange={(e) => {
             setTextInput(e.target.value);

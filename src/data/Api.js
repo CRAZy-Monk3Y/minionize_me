@@ -13,8 +13,7 @@ function errorHandler(error) {
 
 export async function translateText(text) {
   try {
-    const response = await axios
-      .get(getTranslationURL(text))
+    const response = await axios.get(getTranslationURL(text));
     return response;
   } catch (error) {
     errorHandler(error);

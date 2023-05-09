@@ -6,7 +6,7 @@
 }
 
 h1 {
-  background-color: yellow;
+  background-color: #ffff00;
   font-size: 2rem;
   padding: 1rem;
 }
@@ -27,7 +27,7 @@ textarea {
 .btn {
   font-size: 1rem;
   margin: 4vh 0;
-  background-color: yellow;
+  background-color: #ffff00;
   border: none;
   border-radius: 5px;
   padding: 8px;
@@ -40,7 +40,7 @@ textarea {
 }
 
 #output {
-  border: 1px solid black;
+  border: 1px solid #000000;
   min-height: 15vh;
   width: 60%;
   margin: 0 auto;
@@ -56,14 +56,14 @@ textarea {
 .hero-area {
   height: 85vh;
   background: url("./banana.png") repeat;
-  background-size: 70px 70px; /* Set the dimensions of the pattern */
+  background-size: 120px 120px; /* Set the dimensions of the pattern */
 }
 .banana {
   font-size: larger;
 }
 
 footer {
-  background-color: yellow;
+  background-color: #ffff00;
   position: fixed;
   bottom: 0;
   left: 0;
