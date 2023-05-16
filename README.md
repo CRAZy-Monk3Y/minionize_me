@@ -1,7 +1,7 @@
 
 # Repository Documentation: minionize_me
 
-![Minionize Me](/blob/main/minionize_me.jpg)
+![Minionize Me](https://github.com/CRAZy-Monk3Y/minionize_me/blob/main/minionize_me.jpg)
 
 This repository contains the source code and assets for the **Minionize Me** React application. Minionize Me is a fun app that allows you to transform text into Minion language, inspired by the adorable Minions from the Despicable Me franchise.
 
@@ -75,6 +75,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENCE.md) fi
 
 ## Acknowledgments
 
-Minionize Me was created by [CRAZy-Monk3Y](https://github.com/CRAZy-Monk3Y). Special thanks to the creators of the Despicable Me franchise for the inspiration.
+Minionize Me was created by [Tathagata Chakraborty](https://github.com/CRAZy-Monk3Y). Special thanks to the creators of the Despicable Me franchise for the inspiration.
 
-![Minionize Me](/blob/main/minionize_me.jpg)
+![Minionize Me](https://github.com/CRAZy-Monk3Y/minionize_me/blob/main/minionize_me.jpg)
